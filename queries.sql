@@ -1,15 +1,4 @@
--- ============================================================
---  Student Performance Analysis — SQL Queries
---  Tool: MySQL Workbench / DB Browser for SQLite
---  Table: students
---  Author: [Your Name]
--- ============================================================
 
--- HOW TO IMPORT:
--- 1. Open MySQL Workbench or DB Browser for SQLite
--- 2. Import your students_cleaned.xlsx as a CSV first
---    (Save the Excel sheet as CSV, then import)
--- 3. Run queries below one by one
 
 -- ============================================================
 -- QUERY 1: Average Score for Each Subject
@@ -146,8 +135,8 @@ ORDER BY Final_Score DESC;
 
 
 -- ============================================================
--- BONUS: Create the students table (if building from scratch)
--- Run this FIRST if you are creating the table manually
+
+
 -- ============================================================
 /*
 CREATE TABLE students (
